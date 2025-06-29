@@ -14,7 +14,7 @@
 	# 设置显示在关于页面里的维护人员名称
 	export OF_MAINTAINER=AneglaCool,ymdzq,Kanbay,Uzeda,ZhcnPanda,woomymy
 	# 设置版本号为日期
-	export FOX_VERSION=$(date +%y.%m.%d)
+	export FOX_MAINTAINER_VERSION=14
 
 	## 添加功能
 	# 使用完整版ps命令
