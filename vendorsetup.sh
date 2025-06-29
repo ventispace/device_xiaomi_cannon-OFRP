@@ -102,10 +102,10 @@
 	# 使用指定的magisk
     export FOX_USE_SPECIFIC_MAGISK_ZIP="$PWD/device/xiaomi/cannon/recovery/root/FFiles/Magisk.zip"
 	# 使用指定的magisk版本号，由于magisk 23+使用了新的包装形式，文件路径改变了，橙狐无法获取正确的版本
-	export MAGISK_VER=25.2
+	export MAGISK_VER=29.1
 	# 当修补recovery/boot镜像时，始终指示magiskboot v24+修补vbmeta标头（自动禁用avb验证？）
 	export OF_USE_MAGISKBOOT=1
-	export OF_PATCH_VBMETA_FLAG=1
+	export FOX_PATCH_VBMETA_FLAG=1
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 	# 修复部分设备或者rom的解密问题
 	export OF_FIX_DECRYPTION_ON_DATA_MEDIA=1
